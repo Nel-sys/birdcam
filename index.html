@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Bird Cameras – UK & Worldwide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f8fa;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .category {
+      background: #ffffff;
+      border-radius: 8px;
+      margin: 14px auto;
+      max-width: 900px;
+      padding: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .category h2 {
+      margin: 0;
+      cursor: pointer;
+      color: #1f4aa8;
+    }
+    .cams {
+      display: none;
+      margin-top: 14px;
+    }
+    .cam {
+      margin-bottom: 14px;
+    }
+    a {
+      color: #1a73e8;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .desc {
+      font-size: 0.95em;
+      margin-top: 2px;
+    }
+    .note {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
+
+  <script>
+    function toggle(id) {
+      const el = document.getElementById(id);
+      el.style.display = el.style.display === "none" ? "block" : "none";
+    }
+  </script>
+</head>
+<body>
+
+<h1>Live Bird Cameras<br>Safe, Verified Live Feeds</h1>
+
+<!-- PIGEONS (FIRST) -->
+<div class="category">
+  <h2 onclick="toggle('pigeons')">Pigeons (Urban Live Feeds)</h2>
+  <div class="cams" id="pigeons">
+
+    <div class="cam">
+      <a href="https://www.allaboutbirds.org/cams/" target="_blank">
+        Urban Bird Feeder Cams – Cornell Lab
+      </a>
+      <div class="desc">
+        Live urban and feeder cameras where feral pigeons regularly appear at feeding stations.
+      </div>
+    </div>
+
+    <div class="cam">
+      <a href="https://www.youtube.com/@CornellLab/live" target="_blank">
+        City Bird Feeder – Cornell Lab (LIVE)
+      </a>
+      <div class="desc">
+        Continuous live city feeder stream with pigeons and other common urban birds.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- GARDEN & FEEDER BIRDS -->
+<div class="category">
+  <h2 onclick="toggle('feeders')">Garden & Feeder Birds</h2>
+  <div class="cams" id="feeders">
+
+    <div class="cam">
+      <a href="https://www.allaboutbirds.org/cams/" target="_blank">
+        Live Feeder Cams – Cornell Lab
+      </a>
+      <div class="desc">
+        Multiple continuously live bird feeder streams showing garden birds worldwide.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- OWLS -->
+<div class="category">
+  <h2 onclick="toggle('owls')">Owls</h2>
+  <div class="cams" id="owls">
+
+    <div class="cam">
+      <a href="https://www.wildlifetrusts.org/webcams" target="_blank">
+        Barn Owl Nest Cam – United Kingdom
+      </a>
+      <div class="desc">
+        Live barn owl nest box camera hosted by UK Wildlife Trusts.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BIRDS OF PREY -->
+<div class="category">
+  <h2 onclick="toggle('raptors')">Birds of Prey</h2>
+  <div class="cams" id="raptors">
+
+    <div class="cam">
+      <a href="https://www.allaboutbirds.org/cams/hellgate-ospreys/" target="_blank">
+        Osprey Nest – Montana, USA
+      </a>
+      <div class="desc">
+        Live osprey nest camera overlooking a river nesting site.
+      </div>
+    </div>
+
+    <div class="cam">
+      <a href="https://www.youtube.com/@CornellLab/live" target="_blank">
+        Eagles & Ospreys – Cornell Lab LIVE
+      </a>
+      <div class="desc">
+        Official live raptor cameras streamed continuously by Cornell Lab of Ornithology.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- SEABIRDS -->
+<div class="category">
+  <h2 onclick="toggle('seabirds')">Seabirds</h2>
+  <div class="cams" id="seabirds">
+
+    <div class="cam">
+      <a href="https://www.wildlifetrusts.org/webcams" target="_blank">
+        Puffins & Coastal Birds – United Kingdom
+      </a>
+      <div class="desc">
+        Live seabird cameras from UK coastal nesting colonies (seasonal but live).
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- WETLAND & MARSH BIRDS -->
+<div class="category">
+  <h2 onclick="toggle('wetlands')">Wetland & Marsh Birds</h2>
+  <div class="cams" id="wetlands">
+
+    <div class="cam">
+      <a href="https://www.birdcenter.org/en/birds/" target="_blank">
+        Marshland Birds – Urdaibai, Spain
+      </a>
+      <div class="desc">
+        Live wetland cameras showing wading and migratory birds in a protected marsh.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="note">
+  All links point to established conservation organisations or research institutions hosting live video streams.<br>
+  Wildlife cameras may temporarily go offline due to weather, darkness, or maintenance.
+</div>
+
+</body>
+</html>
