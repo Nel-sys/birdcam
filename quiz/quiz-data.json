@@ -19,6 +19,44 @@
           "wrong": ["Macaw", "Cockatoo", "Budgerigar"]
         }
       ]
+    },
+    {
+      "questions": [
+        {
+          "q": "Which bird is known for its distinctive laugh-like call?",
+          "correct": "Kookaburra",
+          "wrong": ["Cuckoo", "Robin", "Nightingale"]
+        },
+        {
+          "q": "Which bird is the national bird of the United States?",
+          "correct": "Bald Eagle",
+          "wrong": ["Golden Eagle", "Turkey", "Osprey"]
+        },
+        {
+          "q": "Which bird is known for its ability to rotate its head almost 360 degrees?",
+          "correct": "Owl",
+          "wrong": ["Hawk", "Crow", "Sparrow"]
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "q": "Which bird is famous for building large nests out of sticks and mud on cliffs?",
+          "correct": "Osprey",
+          "wrong": ["Puffin", "Heron", "Stork"]
+        },
+        {
+          "q": "Which bird is known as the largest bird capable of flight?",
+          "correct": "Kori Bustard",
+          "wrong": ["Ostrich", "Emu", "Albatross"]
+        },
+        {
+          "q": "Which bird is famous for its bright red breast?",
+          "correct": "Robin",
+          "wrong": ["Cardinal", "Robin Chat", "Goldfinch"]
+        }
+      ]
     }
   ]
 }
