@@ -12,9 +12,13 @@ function startQuiz(data) {
   const quiz = document.getElementById("birdQuiz");
   const startDate = new Date(data.startDate);
 const today = new Date();
-const dayIndex = Math.floor((today - startDate) / 86400000);
+
+// If quiz hasn't started yet, use day 0
+let dayIndex = Math.floor((today - startDate) / 86400000);
+if (dayIndex < 0) dayIndex = 0;
+
 const questions = data.days[dayIndex % data.days.length].questions;
-  const image = "images/birds/0.jpg";
+
 
   let index = 0;
   let timer = null;
