@@ -1,0 +1,24 @@
+{
+  "startDate": "2026-02-01",
+  "days": [
+    {
+      "questions": [
+        {
+          "q": "Which bird is famous for long-distance migration between the Arctic and Antarctic?",
+          "correct": "Arctic Tern",
+          "wrong": ["Swallow", "Albatross", "Snow Goose"]
+        },
+        {
+          "q": "Which bird is the fastest in a diving flight?",
+          "correct": "Peregrine Falcon",
+          "wrong": ["Golden Eagle", "Swift", "Osprey"]
+        },
+        {
+          "q": "Which bird is known for mimicking human speech?",
+          "correct": "African Grey Parrot",
+          "wrong": ["Macaw", "Cockatoo", "Budgerigar"]
+        }
+      ]
+    }
+  ]
+}
