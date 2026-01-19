@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function startQuiz(data) {
   const quiz = document.getElementById("birdQuiz");
-  const questions = data.days[0].questions;
+  const questions = data.days[1].questions;
   const image = "images/birds/0.jpg";
 
   let index = 0;
