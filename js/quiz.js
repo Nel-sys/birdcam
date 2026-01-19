@@ -10,7 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function startQuiz(data) {
   const quiz = document.getElementById("birdQuiz");
-  const questions = data.days[1].questions;
+  const startDate = new Date(data.startDate);
+const today = new Date();
+const dayIndex = Math.floor((today - startDate) / 86400000);
+const questions = data.days[dayIndex % data.days.length].questions;
   const image = "images/birds/0.jpg";
 
   let index = 0;
