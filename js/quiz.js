@@ -11,18 +11,19 @@ document.addEventListener("DOMContentLoaded", () => {
 function startQuiz(data) {
   const quiz = document.getElementById("birdQuiz");
   const startDate = new Date(data.startDate);
-const today = new Date();
+  const today = new Date();
 
-// If quiz hasn't started yet, use day 0
-let dayIndex = Math.floor((today - startDate) / 86400000);
-if (dayIndex < 0) dayIndex = 0;
+  // If quiz hasn't started yet, use day 0
+  let dayIndex = Math.floor((today - startDate) / 86400000);
+  if (dayIndex < 0) dayIndex = 0;
 
-const questions = data.days[dayIndex % data.days.length].questions;
-
+  const questions = data.days[dayIndex % data.days.length].questions;
 
   let index = 0;
   let timer = null;
   let locked = false;
+
+  const image = "images/birds/0.jpg"; // <-- add this line
 
   function showQuestion() {
     if (index >= questions.length) {
