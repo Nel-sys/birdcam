@@ -3,159 +3,170 @@
   "days": [
     {
       "questions": [
-        {
-          "q": "Which bird is famous for long-distance migration between the Arctic and Antarctic?",
-          "correct": "Arctic Tern",
-          "wrong": ["Swallow", "Albatross", "Snow Goose"]
-        },
-        {
-          "q": "Which bird is the fastest in a diving flight?",
-          "correct": "Peregrine Falcon",
-          "wrong": ["Golden Eagle", "Swift", "Osprey"]
-        },
-        {
-          "q": "Which bird is known for mimicking human speech?",
-          "correct": "African Grey Parrot",
-          "wrong": ["Macaw", "Cockatoo", "Budgerigar"]
-        }
+        { "q": "Which bird is famous for long-distance migration between the Arctic and Antarctic?", "correct": "Arctic Tern", "wrong": ["Swallow", "Albatross", "Snow Goose"] },
+        { "q": "Which bird is the fastest in a diving flight?", "correct": "Peregrine Falcon", "wrong": ["Golden Eagle", "Swift", "Osprey"] },
+        { "q": "Which bird is known for mimicking human speech?", "correct": "African Grey Parrot", "wrong": ["Macaw", "Cockatoo", "Budgerigar"] }
       ]
     },
     {
       "questions": [
-        {
-          "q": "Which bird is known for its distinctive laugh-like call?",
-          "correct": "Kookaburra",
-          "wrong": ["Cuckoo", "Robin", "Nightingale"]
-        },
-        {
-          "q": "Which bird is the national bird of the United States?",
-          "correct": "Bald Eagle",
-          "wrong": ["Golden Eagle", "Turkey", "Osprey"]
-        },
-        {
-          "q": "Which bird is known for its ability to rotate its head almost 360 degrees?",
-          "correct": "Owl",
-          "wrong": ["Hawk", "Crow", "Sparrow"]
-        }
+        { "q": "Which bird is known for its distinctive laugh-like call?", "correct": "Kookaburra", "wrong": ["Cuckoo", "Robin", "Nightingale"] },
+        { "q": "Which bird is the national bird of the United States?", "correct": "Bald Eagle", "wrong": ["Golden Eagle", "Turkey", "Osprey"] },
+        { "q": "Which bird can rotate its head almost 360 degrees?", "correct": "Owl", "wrong": ["Hawk", "Crow", "Sparrow"] }
       ]
     },
     {
       "questions": [
-        {
-          "q": "Which bird is famous for building large nests out of sticks and mud on cliffs?",
-          "correct": "Osprey",
-          "wrong": ["Puffin", "Heron", "Stork"]
-        },
-        {
-          "q": "Which bird is known as the largest bird capable of flight?",
-          "correct": "Kori Bustard",
-          "wrong": ["Ostrich", "Emu", "Albatross"]
-        },
-        {
-          "q": "Which bird is famous for its bright red breast?",
-          "correct": "Robin",
-          "wrong": ["Cardinal", "Robin Chat", "Goldfinch"]
-        }
-        ,
-{
-  "questions": [
-    { "q": "Which UK bird has a green back and yellow belly and often visits feeders?", "correct": "Greenfinch", "wrong": ["Siskin", "Goldfinch", "Serin"] },
-    { "q": "Which bird is the smallest in the UK?", "correct": "Goldcrest", "wrong": ["Wren", "Firecrest", "Blue Tit"] },
-    { "q": "Which bird is known for its repeated 'cuck-oo' call?", "correct": "Cuckoo", "wrong": ["Collared Dove", "Woodpigeon", "Turtle Dove"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which UK bird has a black head and bright yellow body?", "correct": "Yellowhammer", "wrong": ["Linnet", "Reed Bunting", "Siskin"] },
-    { "q": "Which bird is commonly seen bobbing its tail while walking?", "correct": "Pied Wagtail", "wrong": ["Grey Wagtail", "Dunnock", "Starling"] },
-    { "q": "Which bird is famous for stealing shiny objects?", "correct": "Magpie", "wrong": ["Jay", "Crow", "Jackdaw"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird has a white chest with black spots and nests on buildings?", "correct": "House Martin", "wrong": ["Swallow", "Swift", "Sand Martin"] },
-    { "q": "Which UK bird has a loud repetitive song often heard at night?", "correct": "Nightingale", "wrong": ["Blackbird", "Robin", "Song Thrush"] },
-    { "q": "Which bird has a thick orange bill and black head?", "correct": "Bullfinch", "wrong": ["Chaffinch", "Brambling", "Hawfinch"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird of prey has a forked tail and has made a UK comeback?", "correct": "Red Kite", "wrong": ["Buzzard", "Kestrel", "Osprey"] },
-    { "q": "Which bird is often seen running quickly along beaches?", "correct": "Sanderling", "wrong": ["Turnstone", "Dunlin", "Ringed Plover"] },
-    { "q": "Which bird sings from rooftops in early spring?", "correct": "Song Thrush", "wrong": ["Blackbird", "Robin", "Starling"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird has a blue-green flash on its wings when flying?", "correct": "Jay", "wrong": ["Magpie", "Rook", "Crow"] },
-    { "q": "Which UK bird feeds upside down on tree trunks?", "correct": "Nuthatch", "wrong": ["Treecreeper", "Woodpecker", "Wren"] },
-    { "q": "Which bird has a mournful descending song?", "correct": "Woodpigeon", "wrong": ["Collared Dove", "Turtle Dove", "Stock Dove"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird is known for its camouflage plumage on woodland floors?", "correct": "Woodcock", "wrong": ["Snipe", "Curlew", "Lapwing"] },
-    { "q": "Which bird builds domed nests with side entrances?", "correct": "Wren", "wrong": ["Dunnock", "Robin", "Goldcrest"] },
-    { "q": "Which seabird plunges into the sea from great heights?", "correct": "Gannet", "wrong": ["Cormorant", "Tern", "Fulmar"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which UK bird has a white rump visible in flight?", "correct": "House Sparrow", "wrong": ["Tree Sparrow", "Chaffinch", "Reed Bunting"] },
-    { "q": "Which bird has a crest and is rarely seen in the UK?", "correct": "Hoopoe", "wrong": ["Waxwing", "Golden Oriole", "Bee-eater"] },
-    { "q": "Which bird has a rapid rattling song from reed beds?", "correct": "Reed Warbler", "wrong": ["Sedge Warbler", "Cetti’s Warbler", "Grasshopper Warbler"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird is often seen perched on motorway signs?", "correct": "Kestrel", "wrong": ["Buzzard", "Red Kite", "Peregrine Falcon"] },
-    { "q": "Which bird has bright yellow plumage and black wings?", "correct": "Golden Oriole", "wrong": ["Yellowhammer", "Goldfinch", "Siskin"] },
-    { "q": "Which bird is known for following farm ploughs?", "correct": "Rook", "wrong": ["Crow", "Jackdaw", "Magpie"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird has a white face and heart-shaped facial disc?", "correct": "Barn Owl", "wrong": ["Tawny Owl", "Little Owl", "Snowy Owl"] },
-    { "q": "Which bird often sings while flying in circles?", "correct": "Skylark", "wrong": ["Meadow Pipit", "Tree Pipit", "Linnet"] },
-    { "q": "Which bird has a metallic green sheen?", "correct": "Starling", "wrong": ["Blackbird", "Rook", "Crow"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird migrates long distances and nests on rooftops?", "correct": "Swift", "wrong": ["Swallow", "House Martin", "Sand Martin"] },
-    { "q": "Which bird is known for its explosive take-off from grass?", "correct": "Pheasant", "wrong": ["Partridge", "Grouse", "Quail"] },
-    { "q": "Which bird has red under the tail and olive-brown plumage?", "correct": "Redstart", "wrong": ["Robin", "Black Redstart", "Bullfinch"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird is associated with churchyards and folklore?", "correct": "Raven", "wrong": ["Crow", "Rook", "Jackdaw"] },
-    { "q": "Which bird has an orange bill and grey body?", "correct": "Blackbird", "wrong": ["Song Thrush", "Starling", "Mistle Thrush"] },
-    { "q": "Which bird is known for communal roosting in winter?", "correct": "Starling", "wrong": ["Sparrow", "Crow", "Jackdaw"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird is famous for its spring courtship display dances?", "correct": "Great Crested Grebe", "wrong": ["Little Grebe", "Cormorant", "Heron"] },
-    { "q": "Which bird has a thin bill and creeps up tree trunks?", "correct": "Treecreeper", "wrong": ["Nuthatch", "Wren", "Goldcrest"] },
-    { "q": "Which bird is often seen floating serenely on rivers?", "correct": "Mute Swan", "wrong": ["Whooper Swan", "Goose", "Duck"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird has red legs and a black-and-white body?", "correct": "Oystercatcher", "wrong": ["Avocet", "Lapwing", "Turnstone"] },
-    { "q": "Which bird’s call sounds like a machine-gun rattle?", "correct": "Grasshopper Warbler", "wrong": ["Reed Warbler", "Sedge Warbler", "Cetti’s Warbler"] },
-    { "q": "Which bird is often associated with winter feeding stations?", "correct": "Coal Tit", "wrong": ["Blue Tit", "Great Tit", "Marsh Tit"] }
-  ]
-},
-{
-  "questions": [
-    { "q": "Which bird has black wings with white flashes in flight?", "correct": "Lapwing", "wrong": ["Golden Plover", "Curlew", "Redshank"] },
-    { "q": "Which bird has adapted extremely well to city life?", "correct": "Feral Pigeon", "wrong": ["Collared Dove", "Woodpigeon", "Stock Dove"] },
-    { "q": "Which bird is traditionally linked to Christmas in the UK?", "correct": "Robin", "wrong": ["Wren", "Blackbird", "Starling"] }
-  ]
-}
-
+        { "q": "Which bird builds large nests on cliffs in the UK?", "correct": "Osprey", "wrong": ["Heron", "Stork", "Puffin"] },
+        { "q": "Which bird is the largest capable of flight?", "correct": "Kori Bustard", "wrong": ["Ostrich", "Emu", "Albatross"] },
+        { "q": "Which UK bird has a bright red breast?", "correct": "Robin", "wrong": ["Cardinal", "Goldfinch", "Bullfinch"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which is the UK’s most common owl?", "correct": "Tawny Owl", "wrong": ["Barn Owl", "Little Owl", "Snowy Owl"] },
+        { "q": "Which bird makes a laughing call in woodland?", "correct": "Green Woodpecker", "wrong": ["Jay", "Magpie", "Crow"] },
+        { "q": "Which bird has a forked tail and screams while flying?", "correct": "Swift", "wrong": ["Swallow", "House Martin", "Kestrel"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird is known for mimicking other birds’ songs?", "correct": "Starling", "wrong": ["Blackbird", "Jay", "Raven"] },
+        { "q": "Which bird of prey hovers while hunting?", "correct": "Kestrel", "wrong": ["Buzzard", "Red Kite", "Peregrine"] },
+        { "q": "Which bird has an orange chest and grey back?", "correct": "Robin", "wrong": ["Redstart", "Bullfinch", "Chaffinch"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which UK bird has green plumage and a red crown?", "correct": "Green Woodpecker", "wrong": ["Jay", "Great Spotted Woodpecker", "Parakeet"] },
+        { "q": "Which bird gives a 'teacher-teacher' call?", "correct": "Great Tit", "wrong": ["Blue Tit", "Coal Tit", "Marsh Tit"] },
+        { "q": "Which bird has adapted well to UK cities?", "correct": "Peregrine Falcon", "wrong": ["Osprey", "Golden Eagle", "Hen Harrier"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird has a pink chest and blue-grey head?", "correct": "Chaffinch", "wrong": ["Bullfinch", "Brambling", "Goldfinch"] },
+        { "q": "Which seabird nests on UK coastal cliffs?", "correct": "Puffin", "wrong": ["Gannet", "Fulmar", "Tern"] },
+        { "q": "Which bird has a long curved bill for mud probing?", "correct": "Curlew", "wrong": ["Lapwing", "Redshank", "Oystercatcher"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which UK bird has a very long tail and pink body?", "correct": "Long-tailed Tit", "wrong": ["Wren", "Blue Tit", "Goldcrest"] },
+        { "q": "Which bird has the loudest song for its size?", "correct": "Wren", "wrong": ["Robin", "Dunnock", "Goldcrest"] },
+        { "q": "Which bird often stands on one leg in water?", "correct": "Heron", "wrong": ["Egret", "Crane", "Stork"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird has a black cap and white cheeks?", "correct": "Great Tit", "wrong": ["Coal Tit", "Blue Tit", "Marsh Tit"] },
+        { "q": "Which bird hides food for later use?", "correct": "Jay", "wrong": ["Magpie", "Rook", "Crow"] },
+        { "q": "Which bird has a crest and waxy wing tips?", "correct": "Waxwing", "wrong": ["Jay", "Bullfinch", "Hoopoe"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird is symbolic of UK rivers and lakes?", "correct": "Mute Swan", "wrong": ["Goose", "Whooper Swan", "Heron"] },
+        { "q": "Which bird performs tumbling flight displays?", "correct": "Lapwing", "wrong": ["Curlew", "Redshank", "Golden Plover"] },
+        { "q": "Which bird has green-yellow plumage and sings rapidly?", "correct": "Greenfinch", "wrong": ["Siskin", "Goldfinch", "Serin"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which is the smallest bird in the UK?", "correct": "Goldcrest", "wrong": ["Wren", "Firecrest", "Blue Tit"] },
+        { "q": "Which bird announces spring with a two-note call?", "correct": "Cuckoo", "wrong": ["Woodpigeon", "Collared Dove", "Nightingale"] },
+        { "q": "Which bird has a yellow body and black head?", "correct": "Yellowhammer", "wrong": ["Linnet", "Reed Bunting", "Siskin"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird bobs its tail while walking?", "correct": "Pied Wagtail", "wrong": ["Grey Wagtail", "Dunnock", "Starling"] },
+        { "q": "Which bird is famous for stealing shiny objects?", "correct": "Magpie", "wrong": ["Jay", "Crow", "Jackdaw"] },
+        { "q": "Which bird nests on buildings using mud?", "correct": "House Martin", "wrong": ["Swallow", "Swift", "Sand Martin"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which UK bird sings loudly at night?", "correct": "Nightingale", "wrong": ["Robin", "Blackbird", "Song Thrush"] },
+        { "q": "Which bird has a thick black bill and pink chest?", "correct": "Bullfinch", "wrong": ["Chaffinch", "Brambling", "Hawfinch"] },
+        { "q": "Which bird of prey has made a strong UK comeback?", "correct": "Red Kite", "wrong": ["Buzzard", "Kestrel", "Osprey"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird runs rapidly along beaches?", "correct": "Sanderling", "wrong": ["Dunlin", "Turnstone", "Ringed Plover"] },
+        { "q": "Which bird sings from rooftops in spring?", "correct": "Song Thrush", "wrong": ["Blackbird", "Robin", "Starling"] },
+        { "q": "Which bird has a blue flash on its wings?", "correct": "Jay", "wrong": ["Magpie", "Crow", "Rook"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird feeds upside down on tree trunks?", "correct": "Nuthatch", "wrong": ["Treecreeper", "Woodpecker", "Wren"] },
+        { "q": "Which bird has a mournful descending call?", "correct": "Woodpigeon", "wrong": ["Collared Dove", "Stock Dove", "Turtle Dove"] },
+        { "q": "Which bird has camouflaged woodland plumage?", "correct": "Woodcock", "wrong": ["Snipe", "Curlew", "Lapwing"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird builds domed nests?", "correct": "Wren", "wrong": ["Dunnock", "Robin", "Goldcrest"] },
+        { "q": "Which seabird dives from great heights?", "correct": "Gannet", "wrong": ["Cormorant", "Tern", "Fulmar"] },
+        { "q": "Which bird has a white rump in flight?", "correct": "House Sparrow", "wrong": ["Tree Sparrow", "Chaffinch", "Reed Bunting"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird is a rare UK visitor with a crest?", "correct": "Hoopoe", "wrong": ["Waxwing", "Golden Oriole", "Bee-eater"] },
+        { "q": "Which bird sings a mechanical rattling song?", "correct": "Reed Warbler", "wrong": ["Sedge Warbler", "Cetti’s Warbler", "Grasshopper Warbler"] },
+        { "q": "Which bird often perches on motorway signs?", "correct": "Kestrel", "wrong": ["Buzzard", "Red Kite", "Peregrine"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird has bright yellow plumage and black wings?", "correct": "Golden Oriole", "wrong": ["Yellowhammer", "Goldfinch", "Siskin"] },
+        { "q": "Which bird follows farm ploughs?", "correct": "Rook", "wrong": ["Crow", "Jackdaw", "Magpie"] },
+        { "q": "Which owl has a heart-shaped face?", "correct": "Barn Owl", "wrong": ["Tawny Owl", "Little Owl", "Snowy Owl"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird sings while hovering high in the sky?", "correct": "Skylark", "wrong": ["Meadow Pipit", "Tree Pipit", "Linnet"] },
+        { "q": "Which bird has a metallic green sheen?", "correct": "Starling", "wrong": ["Blackbird", "Rook", "Crow"] },
+        { "q": "Which bird nests on rooftops and migrates far?", "correct": "Swift", "wrong": ["Swallow", "House Martin", "Sand Martin"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird explodes noisily from hedges?", "correct": "Pheasant", "wrong": ["Partridge", "Quail", "Grouse"] },
+        { "q": "Which bird has red under the tail?", "correct": "Redstart", "wrong": ["Robin", "Bullfinch", "Black Redstart"] },
+        { "q": "Which bird is linked to folklore and towers?", "correct": "Raven", "wrong": ["Crow", "Rook", "Jackdaw"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird has an orange bill and grey body?", "correct": "Blackbird", "wrong": ["Song Thrush", "Starling", "Mistle Thrush"] },
+        { "q": "Which bird forms huge winter roosts?", "correct": "Starling", "wrong": ["Sparrow", "Crow", "Jackdaw"] },
+        { "q": "Which bird performs elaborate courtship dances?", "correct": "Great Crested Grebe", "wrong": ["Little Grebe", "Cormorant", "Heron"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird creeps upward on tree bark?", "correct": "Treecreeper", "wrong": ["Nuthatch", "Wren", "Goldcrest"] },
+        { "q": "Which bird floats serenely on rivers?", "correct": "Mute Swan", "wrong": ["Whooper Swan", "Goose", "Duck"] },
+        { "q": "Which bird has red legs and black-and-white plumage?", "correct": "Oystercatcher", "wrong": ["Lapwing", "Avocet", "Turnstone"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird’s song sounds like a machine gun?", "correct": "Grasshopper Warbler", "wrong": ["Reed Warbler", "Sedge Warbler", "Cetti’s Warbler"] },
+        { "q": "Which bird often visits winter feeders?", "correct": "Coal Tit", "wrong": ["Blue Tit", "Great Tit", "Marsh Tit"] },
+        { "q": "Which bird has black wings with white flashes?", "correct": "Lapwing", "wrong": ["Curlew", "Golden Plover", "Redshank"] }
+      ]
+    },
+    {
+      "questions": [
+        { "q": "Which bird thrives in urban environments?", "correct": "Feral Pigeon", "wrong": ["Woodpigeon", "Collared Dove", "Stock Dove"] },
+        { "q": "Which bird is traditionally linked to Christmas in the UK?", "correct": "Robin", "wrong": ["Wren", "Blackbird", "Starling"] },
+        { "q": "Which bird has a red kite-shaped tail?", "correct": "Red Kite", "wrong": ["Buzzard", "Kestrel", "Osprey"] }
       ]
     }
   ]
