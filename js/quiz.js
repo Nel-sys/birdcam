@@ -10,27 +10,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function startQuiz(data) {
   const quiz = document.getElementById("birdQuiz");
+
   const startDate = new Date(data.startDate);
   const today = new Date();
 
-  // If quiz hasn't started yet, use day 0
+  // Calculate number of days since start date
   let dayIndex = Math.floor((today - startDate) / 86400000);
   if (dayIndex < 0) dayIndex = 0;
 
-  const questions = data.days[dayIndex % data.days.length].questions;
+  // --- DAILY QUESTION SET ---
+  const dayData =
+    data.days[dayIndex % data.days.length];
+  const questions = dayData.questions;
+
+  // --- DAILY IMAGE (loops after 9) ---
+  const imageCount = 9;
+  const imageIndex = (dayIndex % imageCount) + 1;
+  const imagePath = `images/birds/${imageIndex}.jpg`;
 
   let index = 0;
   let timer = null;
   let locked = false;
 
-  const image = "images/birds/0.jpg"; // <-- add this line
-
   function showQuestion() {
     if (index >= questions.length) {
       quiz.innerHTML = `
-        <img src="${image}" alt="Bird">
+        <img src="${imagePath}" alt="Bird">
         <strong>Quiz complete</strong>
-        <p>Come back tomorrow for new questions.</p>
+        <p>Come back tomorrow for a new bird.</p>
       `;
       return;
     }
@@ -40,11 +47,14 @@ function startQuiz(data) {
     const options = shuffle([q.correct, ...q.wrong]);
 
     quiz.innerHTML = `
-      <img src="${image}" alt="Bird">
+      <img src="${imagePath}" alt="Bird">
       <div class="quiz-question">${index + 1}. ${q.q}</div>
-      ${options.map(o =>
-        `<div class="quiz-option" data-answer="${o}">${o}</div>`
-      ).join("")}
+      ${options
+        .map(
+          o =>
+            `<div class="quiz-option" data-answer="${o}">${o}</div>`
+        )
+        .join("")}
       <div id="timer" style="font-size:0.85em;color:#666;margin-top:6px;">
         Time left: 8s
       </div>
@@ -73,13 +83,14 @@ function startQuiz(data) {
   }
 
   function showCorrectAndAdvance(q, selected = null) {
-    const options = document.querySelectorAll(".quiz-option");
-
-    options.forEach(opt => {
+    document.querySelectorAll(".quiz-option").forEach(opt => {
       if (opt.dataset.answer === q.correct) {
-        opt.style.background = "#c8f7c5"; // green
-      } else if (selected && opt.dataset.answer === selected.dataset.answer) {
-        opt.style.background = "#f7c5c5"; // red
+        opt.style.background = "#c8f7c5";
+      } else if (
+        selected &&
+        opt.dataset.answer === selected.dataset.answer
+      ) {
+        opt.style.background = "#f7c5c5";
       }
     });
 
